@@ -26,4 +26,6 @@ Copyright 2017  Kulchenko Alexey  (email: kulchenko.alexey@gmail.com)
 
 require_once dirname(__FILE__).'/includes/InformationOutputPlugin.php';
 
+register_activation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'activation' ) );
+
 ?>
