@@ -22,10 +22,10 @@ class InformationOutputPlugin
     }
 	
 	static public function deactivation()
- +    {
- +        // debug.log
- +        error_log('plugin '.INFORMATIONOUTPUT_PlUGIN_NAME.' deactivation');
- +    }
+     {
+         // debug.log
+         error_log('plugin '.INFORMATIONOUTPUT_PlUGIN_NAME.' deactivation');
+     }
  
 }
 InformationOutputPlugin::getInstance();
