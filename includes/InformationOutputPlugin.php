@@ -24,8 +24,8 @@ class InformationOutputPlugin
 	static public function deactivation()
  +    {
  +        // debug.log
- +        error_log('plugin '.STEPBYSTEP_PlUGIN_NAME.' deactivation');
+ +        error_log('plugin '.INFORMATIONOUTPUT_PlUGIN_NAME.' deactivation');
  +    }
  
 }
-StepByStepPlugin::getInstance();
+InformationOutputPlugin::getInstance();

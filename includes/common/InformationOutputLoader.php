@@ -6,5 +6,6 @@ class InformationOutputLoader
    
     public function all(){
         InformationOutputLocalization::getInstance();
+		InformationOutputExampleAction = InformationOutputExampleAction::newInstance();
     }
 }
