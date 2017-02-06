@@ -6,6 +6,8 @@ Description: display information on the screen
 Version: 1.0
 Author: Alexey Kulchenko
 Author URI: http://wp8poltava.it-dev-lab.com/wp-site/
+Text Domain: information-output-plugin
+Domain Path: /languages/
 
 Copyright 2017  Kulchenko Alexey  (email: kulchenko.alexey@gmail.com)
     This program is free software; you can redistribute it and/or modify
