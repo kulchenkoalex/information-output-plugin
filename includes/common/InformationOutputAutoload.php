@@ -25,4 +25,4 @@ class InformationOutputAutoload
         }
     }
 }
-StepByStepAutoload::getInstance();
+InformationOutputAutoload::getInstance();
