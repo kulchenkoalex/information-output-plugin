@@ -5,6 +5,7 @@ namespace includes\common;
 use includes\controllers\admin\menu\InformationOutputMainAdminMenuController;
 use includes\controllers\admin\menu\InformationOutputMainAdminSubMenuController;
 use includes\controllers\admin\menu\InformationOutputMyDashboardMenuController;
+use includes\controllers\admin\menu\InformationOutputMyPostsMenuController;
 use includes\example\InformationOutputExampleAction;
 
 class InformationOutputLoader
@@ -36,6 +37,7 @@ class InformationOutputLoader
         InformationOutputMainAdminMenuController::newInstance();
         InformationOutputMainAdminSubMenuController::newInstance();
         InformationOutputMyDashboardMenuController::newInstance();
+        InformationOutputMyPostsMenuController::newInstance();
     }
     /**
      * Метод будет срабатывать когда вы находитесь Сайте. Загрузка классов для Сайта
