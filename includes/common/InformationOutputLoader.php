@@ -13,6 +13,7 @@ use includes\controllers\admin\menu\InformationOutputMyThemeMenuController;
 use includes\controllers\admin\menu\InformationOutputMyPluginsMenuController;
 use includes\controllers\admin\menu\InformationOutputMyUsersMenuController;
 use includes\controllers\admin\menu\InformationOutputMyToolsMenuController;
+use includes\controllers\admin\menu\InformationOutputMyOptionsMenuController;
 use includes\example\InformationOutputExampleAction;
 
 class InformationOutputLoader
@@ -52,6 +53,7 @@ class InformationOutputLoader
         InformationOutputMyPluginsMenuController::newInstance();
         InformationOutputMyUsersMenuController::newInstance();
         InformationOutputMyToolsMenuController::newInstance();
+        InformationOutputMyOptionsMenuController::newInstance();
     }
     /**
      * Метод будет срабатывать когда вы находитесь Сайте. Загрузка классов для Сайта
