@@ -3,6 +3,7 @@
 namespace includes\common;
 
 use includes\controllers\admin\menu\InformationOutputMainAdminMenuController;
+use includes\controllers\admin\menu\InformationOutputMainAdminSubMenuController;
 use includes\example\InformationOutputExampleAction;
 
 class InformationOutputLoader
@@ -32,6 +33,7 @@ class InformationOutputLoader
      */
     public function admin(){
         InformationOutputMainAdminMenuController::newInstance();
+        InformationOutputMainAdminSubMenuController::newInstance();
     }
     /**
      * Метод будет срабатывать когда вы находитесь Сайте. Загрузка классов для Сайта

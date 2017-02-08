@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputLoader.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InformationOutputLoader.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
               <folding>
                 <element signature="e#35#112#0#PHP" expanded="true" />
               </folding>
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputMainAdminSubMenuController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationOutputMainAdminSubMenuController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminSubMenuController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state relative-caret-position="235">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputBaseAdminMenuController.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminMenuController.php" />
         <option value="$PROJECT_DIR$/information-output-plugin.php" />
-        <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminSubMenuController.php" />
+        <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
       </list>
     </option>
   </component>
@@ -246,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486580162910</updated>
-      <workItem from="1486580177239" duration="5299000" />
+      <workItem from="1486580177239" duration="5615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5299000" />
+    <option name="totallyTimeSpent" value="5615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -329,21 +329,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
+    <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminSubMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#35#112#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminSubMenuController.php">
+    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="241">
+          <caret line="35" column="67" lean-forward="true" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+          <folding>
+            <element signature="e#35#112#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
