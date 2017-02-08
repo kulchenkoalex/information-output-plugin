@@ -2,6 +2,7 @@
 
 namespace includes\common;
 
+use includes\controllers\admin\menu\InformationOutputMainAdminMenuController;
 use includes\example\InformationOutputExampleAction;
 
 class InformationOutputLoader

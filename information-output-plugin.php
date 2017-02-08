@@ -31,4 +31,5 @@ require_once INFORMATIONOUTPUT_PlUGIN_DIR.'/includes/InformationOutputPlugin.php
 register_activation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'activation' ) );
 register_deactivation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'deactivation' ) );
 
+error_log(INFORMATIONOUTPUT_PlUGIN_URL_IMG);
 ?>
