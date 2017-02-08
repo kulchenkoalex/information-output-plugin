@@ -16,10 +16,10 @@ class InformationOutputMyUsersMenuController extends InformationOutputBaseAdminM
         // TODO: Implement action() method.
 
         $pluginPage = add_users_page(
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub users Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub users Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
             'read',
-            'information_output_control_sub_posts_menu',
+            'information_output_control_sub_users_menu',
             array(&$this, 'render')
         );
     }

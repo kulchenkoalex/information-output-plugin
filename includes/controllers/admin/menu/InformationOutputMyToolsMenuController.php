@@ -16,10 +16,10 @@ class InformationOutputMyToolsMenuController extends InformationOutputBaseAdminM
         // TODO: Implement action() method.
 
         $pluginPage = add_management_page(
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub tools Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub tools Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
             'read',
-            'information_output_control_sub_posts_menu',
+            'information_output_control_sub_tools_menu',
             array(&$this, 'render')
         );
     }

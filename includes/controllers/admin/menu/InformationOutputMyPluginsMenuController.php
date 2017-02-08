@@ -16,10 +16,10 @@ class InformationOutputMyPluginsMenuController extends InformationOutputBaseAdmi
         // TODO: Implement action() method.
 
         $pluginPage = add_plugins_page(
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub plugins Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub plugins Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
             'read',
-            'information_output_control_sub_posts_menu',
+            'information_output_control_sub_plugins_menu',
             array(&$this, 'render')
         );
     }

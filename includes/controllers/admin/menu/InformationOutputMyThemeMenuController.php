@@ -16,10 +16,10 @@ class InformationOutputMyThemeMenuController extends InformationOutputBaseAdminM
         // TODO: Implement action() method.
 
         $pluginPage = add_theme_page(
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
-            __('Sub posts Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub theme Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+            __('Sub theme Information Output', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
             'read',
-            'information_output_control_sub_posts_menu',
+            'information_output_control_sub_theme_menu',
             array(&$this, 'render')
         );
     }
