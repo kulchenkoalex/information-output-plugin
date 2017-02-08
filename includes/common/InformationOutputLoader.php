@@ -10,6 +10,7 @@ use includes\controllers\admin\menu\InformationOutputMyMediaMenuController;
 use includes\controllers\admin\menu\InformationOutputMyPagesMenuController;
 use includes\controllers\admin\menu\InformationOutputMyCommentsMenuController;
 use includes\controllers\admin\menu\InformationOutputMyThemeMenuController;
+use includes\controllers\admin\menu\InformationOutputMyPluginsMenuController;
 use includes\example\InformationOutputExampleAction;
 
 class InformationOutputLoader
@@ -46,6 +47,7 @@ class InformationOutputLoader
         InformationOutputMyPagesMenuController::newInstance();
         InformationOutputMyCommentsMenuController::newInstance();
         InformationOutputMyThemeMenuController::newInstance();
+        InformationOutputMyPluginsMenuController::newInstance();
     }
     /**
      * Метод будет срабатывать когда вы находитесь Сайте. Загрузка классов для Сайта
