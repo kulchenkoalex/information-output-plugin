@@ -23,10 +23,10 @@ Copyright 2017  Kulchenko Alexey  (email: kulchenko.alexey@gmail.com)
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-+require_once plugin_dir_path(__FILE__) . '/config-path.php';
+require_once plugin_dir_path(__FILE__) . '/config-path.php';
 require_once INFORMATIONOUTPUT_PlUGIN_DIR.'/includes/common/InformationOutputAutoload.php';
 require_once INFORMATIONOUTPUT_PlUGIN_DIR.'/includes/InformationOutputPlugin.php';
-require_once dirname(__FILE__).'/includes/InformationOutputPlugin.php';
+
 
 register_activation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'activation' ) );
 register_deactivation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'deactivation' ) );

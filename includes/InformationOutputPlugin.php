@@ -1,9 +1,13 @@
+<?php
 namespace includes;
+
+use includes\common\InformationOutputLoader;
 
 class InformationOutputPlugin
 {
  private static $instance = null;
     private function __construct() {
+        InformationOutputLoader::getInstance();
     }
     public static function getInstance() {
 

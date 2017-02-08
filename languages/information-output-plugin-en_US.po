@@ -21,9 +21,9 @@ msgstr ""
 "_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
 "__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: includes/example/InformationOutputExampleAction.php:18
 msgid "Hello"
-msgstr "Hello"
+msgstr "Hello word"
