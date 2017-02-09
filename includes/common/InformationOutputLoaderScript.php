@@ -74,13 +74,22 @@ class InformationOutputLoaderScript
         );
 
         /**
-        +         * Правильно добавляет файл CSS стилей. Регистрирует файл стилей, если он еще не был зарегистрирован.
-        +         */
-        +        wp_enqueue_style(INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain');
+                 * Правильно добавляет файл CSS стилей. Регистрирует файл стилей, если он еще не был зарегистрирован.
+                 */
+                wp_enqueue_style(INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain');
     }
 
-    public function loadHeadScriptAdmin(){}
-    public function loadScriptSite($hook){}
+    public function loadHeadScriptAdmin(){
+        ?>
+                    <script type="text/javascript">
+                            var stepByStepAjaxUrl;
+                            stepByStepAjaxUrl  = '<?php echo INFORMATIONOUTPUT_PlUGIN_AJAX_URL; ?>';
+                        </script>
+                <?php
+    }
+    public function loadScriptSite($hook){
+        //Подключение скриптов для frontend
+    }
     public function loadHeadScriptSite(){}
     public function loadFooterScriptSite(){}
 }
