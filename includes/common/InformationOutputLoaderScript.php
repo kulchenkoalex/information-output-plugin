@@ -53,13 +53,18 @@ class InformationOutputLoaderScript
          */
         wp_register_script(
             INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain', //$handle
-            INFORMATIONOUTPUT_PlUGIN_URL.'assets/admin/js/admin/InformationOutputAdminMain.js', //$src
+            INFORMATIONOUTPUT_PlUGIN_URL.'assets/admin/js/InformationOutputAdminMain.js', //$src
             array(
                 'jquery'
             ), //$deps
             INFORMATIONOUTPUT_PlUGIN_VERSION, //$ver
             true //$$in_footer
         );
+        /**
+                 * Добавляет скрипт, только если он еще не был добавлен и другие скрипты от которых он зависит зарегистрированы.
+                 * Зависимые скрипты добавляются автоматически.
+                 */
+                wp_enqueue_script(INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain');
     }
 
     public function loadHeadScriptAdmin(){}

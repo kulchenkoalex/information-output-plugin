@@ -2,7 +2,7 @@
 
 namespace includes\controllers\admin\menu;
 
-abstract class InformationOutputBaseAdminMenuController
+abstract class InformationOutputBaseAdminMenuController implements InformationOutputIСreatorInstance
 {
     public function __construct(){
         /*
