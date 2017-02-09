@@ -7,7 +7,7 @@
  */
 
 namespace includes\controllers\admin\menu;
-interface InformationOutputIСreatorInstance
+interface InformationOutputICreatorInstance
 {
     public static function newInstance();
 }

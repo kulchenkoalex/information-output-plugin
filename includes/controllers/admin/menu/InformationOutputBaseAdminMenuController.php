@@ -2,7 +2,7 @@
 
 namespace includes\controllers\admin\menu;
 
-abstract class InformationOutputBaseAdminMenuController implements InformationOutputIСreatorInstance
+abstract class InformationOutputBaseAdminMenuController implements InformationOutputICreatorInstance
 {
     public function __construct(){
         /*
@@ -13,5 +13,5 @@ abstract class InformationOutputBaseAdminMenuController implements InformationOu
     }
     abstract public function action();
     abstract public function render();
-    abstract public static function newInstance();
+    
 }
