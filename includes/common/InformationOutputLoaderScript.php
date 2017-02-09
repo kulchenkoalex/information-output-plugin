@@ -65,6 +65,18 @@ class InformationOutputLoaderScript
                  * Зависимые скрипты добавляются автоматически.
                  */
                 wp_enqueue_script(INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain');
+
+        wp_register_style(
+            INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain', //$handle
+            INFORMATIONOUTPUT_PlUGIN_URL.'assets/admin/css/InformationOutputAdminMain.css', // $src
+            array(), //$deps,
+            INFORMATIONOUTPUT_PlUGIN_VERSION // $ver
+        );
+
+        /**
+        +         * Правильно добавляет файл CSS стилей. Регистрирует файл стилей, если он еще не был зарегистрирован.
+        +         */
+        +        wp_enqueue_style(INFORMATIONOUTPUT_PlUGIN_SLUG.'-AdminMain');
     }
 
     public function loadHeadScriptAdmin(){}
