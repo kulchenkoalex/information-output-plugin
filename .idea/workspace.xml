@@ -48,8 +48,8 @@
       <file leaf-file-name="InformationOutputRequestApi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -103,6 +103,7 @@
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputICreatorInstance.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputBaseAdminMenuController.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminMenuController.php" />
+        <option value="$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php" />
       </list>
     </option>
   </component>
@@ -114,8 +115,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1" />
+    <option name="y" value="109" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -359,15 +360,15 @@
       <workItem from="1486622918969" duration="4221000" />
       <workItem from="1486643781406" duration="364000" />
       <workItem from="1486650773986" duration="807000" />
-      <workItem from="1487007090495" duration="2612000" />
+      <workItem from="1487007090495" duration="2839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18424000" />
+    <option name="totallyTimeSpent" value="18651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1" y="109" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25988287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -792,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
