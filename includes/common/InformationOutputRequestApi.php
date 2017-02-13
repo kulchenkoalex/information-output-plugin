@@ -21,7 +21,7 @@ class InformationOutputRequestApi
                     }
          return self::$instance;
      }
-    public function Information()
+    public function information()
     {
         $request = wp_remote_get('https://api.pinterest.com/v1/boards/marticz/home-office/pins/?access_token=<your access token>');
         $pins = json_decode($request['body'], true);
@@ -32,5 +32,20 @@ class InformationOutputRequestApi
             }
             echo '</ul>';
         }
+    }
+    
+    public function generationToken()
+    {
+        $key = base64_encode( urlencode( "n8KP16uvGZA6xvFTtb8IAA:i4pmOV0duXJv7TyF5IvyFdh5wDIqfJOovKjs92ei878" ) );
+        $request = wp_remote_post('https://api.twitter.com/oauth2/token', array(
+            'headers' => array(
+                'Authorization' => 'Basic ' . $key,
+                'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
+            ),
+            'body' => 'grant_type=client_credentials',
+            'httpversion' => '1.1'
+        ));
+        $token = json_decode( $request['body'] );
+        echo "<pre>"; var_dump($token); echo "</pre>";
     }
 }
