@@ -29,7 +29,9 @@ class InformationOutputMainAdminMenuModel implements InformationOutputICreatorIn
          // register_setting( $option_group, $option_name, $sanitize_callback );
          // Регистрирует новую опцию
          register_setting('InformationOutputMainSettings', INFORMATIONOUTPUT_PlUGIN_OPTION_NAME, array(&$this, 'saveOption'));
-
+        // add_settings_section( $id, $title, $callback, $page );
+        // Добавление секции опций
+        add_settings_section( 'information_output_account_id', __('Account', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN), '', 'information_output_main' );
      }
 
     /**
@@ -38,7 +40,7 @@ class InformationOutputMainAdminMenuModel implements InformationOutputICreatorIn
      */
     public function saveOption($input)
      {
-
+         return $input;
 
      }
 
