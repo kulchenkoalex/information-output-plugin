@@ -43,7 +43,10 @@ class InformationOutputMainAdminMenuController extends InformationOutputBaseAdmi
     public function render()
     {
         // TODO: Implement render() method.
-        _e("Hello world", INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN);
+        //_e("Hello world", INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN);
+        //var_dump($reuestAPI->getNewPosts('', ''));*/
+                $pathView = INFORMATIONOUTPUT_PlUGIN_DIR."/includes/views/admin/menu/InformationOutputMainAdminMenuView.php";
+                $this->loadView($pathView);
     }
 
     public static function newInstance()
