@@ -8,8 +8,10 @@
 
 namespace includes\models\admin\menu;
 
+use includes\controllers\admin\menu\InformationOutputICreatorInstance;
 
-class InformationOutputMainAdminMenuModel
+
+class InformationOutputMainAdminMenuModel implements InformationOutputICreatorInstance
 {
     public function __construct(){
                 add_action( 'admin_init', array( &$this, 'createOption' ) );
@@ -25,7 +27,7 @@ class InformationOutputMainAdminMenuModel
     public function createOption()
      {
 
- 
+
      }
 
     /**
@@ -38,4 +40,10 @@ class InformationOutputMainAdminMenuModel
 
      }
 
+    public static function newInstance()
+    {
+        // TODO: Implement newInstance() method.
+        $instance = new self;
+                return $instance;
+    }
 }
