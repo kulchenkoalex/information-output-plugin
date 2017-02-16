@@ -30,8 +30,8 @@
       <file leaf-file-name="InformationOutputDefaultOption.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputDefaultOption.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -78,6 +78,7 @@
         <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputShortcodesController.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
         <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputPostsShortcodeController.php" />
+        <option value="$PROJECT_DIR$/includes/common/InformationOutputDefaultOption.php" />
       </list>
     </option>
   </component>
@@ -362,15 +363,15 @@
       <workItem from="1486650773986" duration="807000" />
       <workItem from="1487007090495" duration="3411000" />
       <workItem from="1487023963027" duration="2604000" />
-      <workItem from="1487233636308" duration="3031000" />
+      <workItem from="1487233636308" duration="3173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24858000" />
+    <option name="totallyTimeSpent" value="25000000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2920937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -792,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputDefaultOption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
