@@ -43,6 +43,8 @@ class InformationOutputPlugin
      {
          // debug.log
          error_log('plugin '.INFORMATIONOUTPUT_PlUGIN_NAME.' deactivation');
+         delete_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME);
+                 delete_option(INFORMATIONOUTPUT_PlUGIN_OPTION_VERSION);
      }
  
 }
