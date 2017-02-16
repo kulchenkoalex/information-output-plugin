@@ -26,7 +26,9 @@ class InformationOutputMainAdminMenuModel implements InformationOutputICreatorIn
      */
     public function createOption()
      {
-
+         // register_setting( $option_group, $option_name, $sanitize_callback );
+         // Регистрирует новую опцию
+         register_setting('InformationOutputMainSettings', INFORMATIONOUTPUT_PlUGIN_OPTION_NAME, array(&$this, 'saveOption'));
 
      }
 
