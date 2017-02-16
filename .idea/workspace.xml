@@ -18,30 +18,32 @@
       <file leaf-file-name="InformationOutputRequestApi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
+            <state relative-caret-position="492">
               <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputBaseAdminMenuController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputBaseAdminMenuController.php">
+      <file leaf-file-name="InformationOutputShortcodesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputShortcodesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="792">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="e#7#90#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputShortcodesController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputShortcodesController.php">
+      <file leaf-file-name="InformationOutputPostsShortcodeController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputPostsShortcodeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="70" column="52" lean-forward="true" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
               <folding>
-                <element signature="e#7#90#0#PHP" expanded="true" />
+                <element signature="e#141#189#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +89,7 @@
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminMenuController.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php" />
         <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputShortcodesController.php" />
+        <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputPostsShortcodeController.php" />
       </list>
     </option>
   </component>
@@ -367,12 +370,12 @@
       <workItem from="1486650773986" duration="807000" />
       <workItem from="1487007090495" duration="3411000" />
       <workItem from="1487023963027" duration="2604000" />
-      <workItem from="1487233636308" duration="1041000" />
+      <workItem from="1487233636308" duration="1905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22868000" />
+    <option name="totallyTimeSpent" value="23732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -410,16 +413,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#112#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMyOptionsMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -779,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputBaseAdminMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -797,10 +782,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputShortcodesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="792">
           <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="e#7#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputPostsShortcodeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="70" column="52" lean-forward="true" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+          <folding>
+            <element signature="e#141#189#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
