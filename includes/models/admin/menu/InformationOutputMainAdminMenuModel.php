@@ -31,9 +31,41 @@ class InformationOutputMainAdminMenuModel implements InformationOutputICreatorIn
          register_setting('InformationOutputMainSettings', INFORMATIONOUTPUT_PlUGIN_OPTION_NAME, array(&$this, 'saveOption'));
         // add_settings_section( $id, $title, $callback, $page );
         // Добавление секции опций
-        add_settings_section( 'information_output_account_id', __('Account', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN), '', 'information_output_main' );
+        add_settings_section( 'information_output_account_section_id', __('Account', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN), '', 'information_output_main' );
+         // add_settings_field( $id, $title, $callback, $page, $section, $args );
+         // Добавление полей опций
+         add_settings_field(
+             'information_output_token_field_id',
+             __('Token', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+             array(&$this, 'tokenField'),
+             'information_output_main',
+             'information_output_account_section_id'
+                 );
+         add_settings_field(
+             'information_output_marker_field_id',
+             __('Marker', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
+             array(&$this, 'tokenMarker'),
+             'information_output_main',
+             'information_output_account_section_id'
+         );
      }
 
+    public function tokenField(){
+        $option = get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME);
+        ?>
+        <input type="text"
+               name="<?php echo INFORMATIONOUTPUT_PlUGIN_OPTION_NAME; ?>[account][token]"
+               value="<?php echo esc_attr( $option['account']['token'] ) ?>" />
+        <?php
+     }
+    public function markerField(){
+        $option = get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME);
+        ?>
+        <input type="text"
+               name="<?php echo INFORMATIONOUTPUT_PlUGIN_OPTION_NAME; ?>[account][marker]"
+               value="<?php echo esc_attr( $option['account']['marker'] ) ?>" />
+        <?php
+     }
     /**
      * Сохранение опции
      * @param $input
