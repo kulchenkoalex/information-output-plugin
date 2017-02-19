@@ -14,6 +14,22 @@ class InformationOutputContactInformationSubMenuController extends InformationOu
     public function action()
     {
         // TODO: Implement action() method.
+        //Добавление пункта меню
+        $pluginPage = add_submenu_page(
+            INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN,
+            _x(
+                'Contact information',
+                'admin menu page' ,
+                INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN
+            ),
+            _x(
+                'Contact information',
+                'admin menu page' ,
+                INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN
+            ),
+            'manage_options',
+            information_output_control_contact_information_menu,
+            array(&$this, 'render'));
     }
 
     public function render()
@@ -24,5 +40,7 @@ class InformationOutputContactInformationSubMenuController extends InformationOu
     public static function newInstance()
     {
         // TODO: Implement newInstance() method.
+        $instance = new self;
+        return $instance;
     }
 }
