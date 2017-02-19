@@ -24,10 +24,10 @@ class InformationOutputPlugin
     +     * Если не созданные настройки установить по умолчанию
     +     */
     public function setDefaultOptions(){
-            if( ! get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME) ){
+            if( !get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME) ){
                     update_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME, InformationOutputDefaultOption::getDefaultOptions() );
                 }
-         if( ! get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_VERSION) ){
+         if( !get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_VERSION) ){
                     update_option(INFORMATIONOUTPUT_PlUGIN_OPTION_VERSION, INFORMATIONOUTPUT_PlUGIN_VERSION);
                 }
      }

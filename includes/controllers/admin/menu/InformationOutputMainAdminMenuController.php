@@ -9,8 +9,17 @@
 namespace includes\controllers\admin\menu;
 
 
+use includes\common\InformationOutputRequestApi;
+use includes\models\admin\menu\InformationOutputMainAdminMenuModel;
+
+
 class InformationOutputMainAdminMenuController extends InformationOutputBaseAdminMenuController
 {
+    public $model;
+    public function __construct(){
+        parent::__construct();
+        $this->model = InformationOutputMainAdminMenuModel::newInstance();
+        }
 
     public function action()
     {

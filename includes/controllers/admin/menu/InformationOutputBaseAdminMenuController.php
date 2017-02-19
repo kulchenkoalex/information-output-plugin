@@ -34,7 +34,7 @@ abstract class InformationOutputBaseAdminMenuController implements InformationOu
                                     break;
              }
          } else {
-                    wp_die(sprintf(__('(View %s not found)', INFORMATIONoUTPUT_PlUGIN_TEXTDOMAIN), $view));
+                    wp_die(sprintf(__('(View %s not found)', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN), $view));
                 }
      }
 }
