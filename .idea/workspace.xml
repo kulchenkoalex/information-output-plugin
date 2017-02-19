@@ -15,22 +15,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InformationOutputMainAdminMenuModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/models/admin/menu/InformationOutputMainAdminMenuModel.php">
+      <file leaf-file-name="InformationOutputContactInformationSubMenuController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+            <state relative-caret-position="425">
+              <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputContactInformationSubMenuController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php">
+      <file leaf-file-name="InformationOutputLoader.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-              <folding />
+            <state relative-caret-position="207">
+              <caret line="58" column="76" lean-forward="false" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+              <folding>
+                <element signature="e#35#112#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +93,6 @@
         <option value="$PROJECT_DIR$/includes/common/InformationOutputICreatorInstance.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputICreatorInstance.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputRequestApi.php" />
-        <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
         <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputPostsShortcodeController.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputDefaultOption.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminMenuView.php" />
@@ -102,6 +103,7 @@
         <option value="$PROJECT_DIR$/includes/models/admin/menu/InformationOutputMainAdminMenuModel.php" />
         <option value="$PROJECT_DIR$/includes/views/admin/menu/InformationOutputMainAdminMenuView.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php" />
+        <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
       </list>
     </option>
   </component>
@@ -440,12 +442,12 @@
       <workItem from="1487007090495" duration="3411000" />
       <workItem from="1487023963027" duration="2604000" />
       <workItem from="1487233636308" duration="7911000" />
-      <workItem from="1487445247100" duration="10661000" />
+      <workItem from="1487445247100" duration="10981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40399000" />
+    <option name="totallyTimeSpent" value="40719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -551,7 +553,7 @@
         <state relative-caret-position="377">
           <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
           <folding>
-            <element signature="e#35#112#0#PHP" expanded="false" />
+            <element signature="e#35#112#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -624,7 +626,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#35#112#0#PHP" expanded="false" />
+            <element signature="e#35#112#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -747,14 +749,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/models/site/shortcodes/InformationOutputShortcodesController.php" />
     <entry file="file://$PROJECT_DIR$/includes/models/site/shortcodes/InformationOutputPostsShortcodeController.php" />
-    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="68" column="53" lean-forward="true" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMyOptionsMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -857,9 +851,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="425">
           <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/common/InformationOutputLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="58" column="76" lean-forward="false" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+          <folding>
+            <element signature="e#35#112#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

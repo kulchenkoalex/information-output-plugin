@@ -16,6 +16,7 @@ use includes\controllers\admin\menu\InformationOutputMyToolsMenuController;
 use includes\controllers\admin\menu\InformationOutputMyOptionsMenuController;
 use includes\controllers\site\shortcodes\InformationOutputPostsShortcodeController;
 use includes\example\InformationOutputExampleAction;
+use includes\controllers\admin\menu\InformationOutputContactInformationSubMenuController;
 
 class InformationOutputLoader
 {
@@ -55,6 +56,7 @@ class InformationOutputLoader
         InformationOutputMyUsersMenuController::newInstance();
         InformationOutputMyToolsMenuController::newInstance();
         InformationOutputMyOptionsMenuController::newInstance();
+        InformationOutputContactInformationSubMenuController::newInstance();
     }
     /**
      * Метод будет срабатывать когда вы находитесь Сайте. Загрузка классов для Сайта
