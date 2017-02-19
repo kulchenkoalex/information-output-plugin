@@ -28,9 +28,15 @@
       <file leaf-file-name="InformationOutputContactInformationSubMenuModel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/models/admin/menu/InformationOutputContactInformationSubMenuModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="547">
+              <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+              <folding>
+                <marker date="1487538950600" expanded="true" signature="766:1291" ph="CREATE TABLE... ${$tableName}" />
+                <marker date="1487538950600" expanded="true" signature="1735:1784" ph="SELECT * FRO... ${self::getTableName()}" />
+                <marker date="1487538950600" expanded="true" signature="2570:2628" ph="DELETE FROM " />
+                <marker date="1487538950600" expanded="true" signature="2789:2810" ph="DROP TABLE I... " />
+                <marker date="1487538950600" expanded="true" signature="3121:3182" ph="SELECT * FRO... ${self::getTableName()}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,6 +108,7 @@
         <option value="$PROJECT_DIR$/includes/views/admin/menu/InformationOutputMainAdminMenuView.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php" />
+        <option value="$PROJECT_DIR$/includes/models/admin/menu/InformationOutputContactInformationSubMenuModel.php" />
       </list>
     </option>
   </component>
@@ -440,15 +447,15 @@
       <workItem from="1487007090495" duration="3411000" />
       <workItem from="1487023963027" duration="2604000" />
       <workItem from="1487233636308" duration="7911000" />
-      <workItem from="1487445247100" duration="11793000" />
+      <workItem from="1487445247100" duration="12461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41531000" />
+    <option name="totallyTimeSpent" value="42199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34699854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -803,7 +810,7 @@
         <state relative-caret-position="323">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="e#136#184#0#PHP" expanded="true" />
+            <element signature="e#136#184#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -860,9 +867,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/models/admin/menu/InformationOutputContactInformationSubMenuModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="547">
+          <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+          <folding>
+            <marker date="1487538950600" expanded="true" signature="766:1291" ph="CREATE TABLE... ${$tableName}" />
+            <marker date="1487538950600" expanded="true" signature="1735:1784" ph="SELECT * FRO... ${self::getTableName()}" />
+            <marker date="1487538950600" expanded="true" signature="2570:2628" ph="DELETE FROM " />
+            <marker date="1487538950600" expanded="true" signature="2789:2810" ph="DROP TABLE I... " />
+            <marker date="1487538950600" expanded="true" signature="3121:3182" ph="SELECT * FRO... ${self::getTableName()}" />
+          </folding>
         </state>
       </provider>
     </entry>
