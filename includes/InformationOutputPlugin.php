@@ -3,6 +3,7 @@ namespace includes;
 
 use includes\common\InformationOutputDefaultOption;
 use includes\common\InformationOutputLoader;
+use includes\models\admin\menu\InformationOutputContactInformationSubMenuModel;
 
 class InformationOutputPlugin
 {
@@ -37,6 +38,7 @@ class InformationOutputPlugin
     {
         // debug.log
         error_log('plugin '.INFORMATIONOUTPUT_PlUGIN_NAME.' activation');
+        InformationOutputContactInformationSubMenuModel::createTable();
     }
 	
 	static public function deactivation()
