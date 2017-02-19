@@ -9,7 +9,20 @@
 namespace includes\controllers\admin\menu;
 
 
-class InformationOutputContactInformationSubMenuController
+class InformationOutputContactInformationSubMenuController extends InformationOutputBaseAdminMenuController
 {
+    public function action()
+    {
+        // TODO: Implement action() method.
+    }
 
+    public function render()
+    {
+        // TODO: Implement render() method.
+    }
+
+    public static function newInstance()
+    {
+        // TODO: Implement newInstance() method.
+    }
 }
