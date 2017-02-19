@@ -52,7 +52,7 @@ class InformationOutputMainAdminMenuModel implements InformationOutputICreatorIn
      }
 
     public function tokenField(){
-        $option = get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME);
+        $option = get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME, 'could not get the option');
         ?>
         <input type="text"
                name="<?php echo INFORMATIONOUTPUT_PlUGIN_OPTION_NAME; ?>[account][token]"
@@ -60,7 +60,7 @@ class InformationOutputMainAdminMenuModel implements InformationOutputICreatorIn
         <?php
      }
     public function markerField(){
-        $option = get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME);
+        $option = get_option(INFORMATIONOUTPUT_PlUGIN_OPTION_NAME, 'could not get the option');
         ?>
         <input type="text"
                name="<?php echo INFORMATIONOUTPUT_PlUGIN_OPTION_NAME; ?>[account][marker]"
