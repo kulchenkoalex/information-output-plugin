@@ -35,6 +35,11 @@ class InformationOutputContactInformationSubMenuController extends InformationOu
     public function render()
     {
         // TODO: Implement render() method.
+        //Данные которые будут передаваться в view
+        $data = array();
+        $pathView = INFORMATIONOUTPUT_PlUGIN_DIR."/includes/views/admin/menu/InformationOutputContactInformationSubMenuView.php";
+        $this->loadView($pathView, 0, $data);
+
     }
 
     public static function newInstance()
