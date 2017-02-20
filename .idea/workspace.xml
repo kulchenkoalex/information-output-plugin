@@ -18,46 +18,18 @@
       <file leaf-file-name="InformationOutputContactInformationSubMenuController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="425">
               <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputContactInformationSubMenuModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/models/admin/menu/InformationOutputContactInformationSubMenuModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
-              <folding>
-                <marker date="1487538950600" expanded="true" signature="766:1291" ph="CREATE TABLE... ${$tableName}" />
-                <marker date="1487538950600" expanded="true" signature="1735:1784" ph="SELECT * FRO... ${self::getTableName()}" />
-                <marker date="1487538950600" expanded="true" signature="2570:2628" ph="DELETE FROM " />
-                <marker date="1487538950600" expanded="true" signature="2789:2810" ph="DROP TABLE I... " />
-                <marker date="1487538950600" expanded="true" signature="3121:3182" ph="SELECT * FRO... ${self::getTableName()}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformationOutputPlugin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="e#27#78#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformationOutputContactInformationSubMenuView.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InformationOutputContactInformationSubMenuView.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/views/admin/menu/InformationOutputContactInformationSubMenuView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="742">
+              <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -121,6 +93,7 @@
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php" />
         <option value="$PROJECT_DIR$/includes/models/admin/menu/InformationOutputContactInformationSubMenuModel.php" />
         <option value="$PROJECT_DIR$/includes/InformationOutputPlugin.php" />
+        <option value="$PROJECT_DIR$/includes/views/admin/menu/InformationOutputContactInformationSubMenuView.php" />
       </list>
     </option>
   </component>
@@ -459,18 +432,18 @@
       <workItem from="1487007090495" duration="3411000" />
       <workItem from="1487023963027" duration="2604000" />
       <workItem from="1487233636308" duration="7911000" />
-      <workItem from="1487445247100" duration="13273000" />
+      <workItem from="1487445247100" duration="15791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43011000" />
+    <option name="totallyTimeSpent" value="45529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34699854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34699854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14154412" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -851,26 +824,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/views/admin/menu/InformationOutputContactInformationSubMenuView.php">
+    <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="361">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#27#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/models/admin/menu/InformationOutputContactInformationSubMenuModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
           <folding>
             <marker date="1487538950600" expanded="true" signature="766:1291" ph="CREATE TABLE... ${$tableName}" />
             <marker date="1487538950600" expanded="true" signature="1735:1784" ph="SELECT * FRO... ${self::getTableName()}" />
@@ -881,13 +848,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
+    <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputContactInformationSubMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="e#27#78#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/views/admin/menu/InformationOutputContactInformationSubMenuView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
