@@ -12,11 +12,8 @@
      Имя<input type="text" name="user_name" value="<?php echo $data['user_name']; ?>"></br>
      Фамилия<input type="text" name="user_surname" value="<?php echo $data['user_surname']; ?>"></br>
      Номер тел.:<input type="text" name="phone_number" value="<?php echo $data['phone_number']; ?>"></br>
-     О себе<textarea name="about_myself">
-         <?php echo $data['about_myself']; ?>
-     </textarea></br></br>
+     О себе<textarea name="about_myself"><?php echo $data['about_myself']; ?></textarea></br></br>
      <!-- Поле id по котором будем обновлять запись в таблице -->
      <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
-
      <input type="submit" name="<?php _e('Add', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN ); ?>">
  </form>
