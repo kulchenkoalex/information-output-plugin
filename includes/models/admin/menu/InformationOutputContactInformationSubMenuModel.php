@@ -21,7 +21,7 @@ class InformationOutputContactInformationSubMenuModel
      */
     static public function getTableName(){
         global $wpdb;
-        return $wpdb->prefix .static::INFORMATIONoUTPUT_TABLE_NAME;
+        return $wpdb->prefix .static::INFORMATIONOUTPUT_TABLE_NAME;
     }
 
     /**
@@ -106,7 +106,6 @@ class InformationOutputContactInformationSubMenuModel
     static public function getAll()
     {
         // TODO: Implement getAll() method.
-        if (self::issetTable() == false) return false;
         global $wpdb;
         $data = $wpdb->get_results( "SELECT * FROM ".self::getTableName()." ORDER BY date_add DESC", ARRAY_A);
         if(count($data) > 0) return $data;
