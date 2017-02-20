@@ -9,12 +9,12 @@
 записи в таблицы которую мы будем редактировать. И еще есть одно скрытое поле id по котором будем обновлять запись в таблице.
 -->
  <form action="admin.php?page=information_output_control_contact_information_menu&action=update_data" method="post">
-     <input type="text" name="user_name" value="<?php echo $data['user_name']; ?>">
-     <input type="text" name="user_surname" value="<?php echo $data['user_surname']; ?>">
-     <input type="text" name="phone_number" value="<?php echo $data['phone_number']; ?>">
-     <textarea name="about_myself">
-	<?php echo $data['about_myself']; ?>
-</textarea>
+     Имя<input type="text" name="user_name" value="<?php echo $data['user_name']; ?>"></br>
+     Фамилия<input type="text" name="user_surname" value="<?php echo $data['user_surname']; ?>"></br>
+     Номер тел.:<input type="text" name="phone_number" value="<?php echo $data['phone_number']; ?>"></br>
+     О себе<textarea name="about_myself">
+         <?php echo $data['about_myself']; ?>
+     </textarea></br></br>
      <!-- Поле id по котором будем обновлять запись в таблице -->
      <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
 
