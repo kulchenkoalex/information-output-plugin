@@ -89,6 +89,22 @@ class InformationOutputLoaderScript
     }
     public function loadScriptSite($hook){
         //Подключение скриптов для frontend
+        //$version = INFORMATIONOUTPUT_PlUGIN_VERSION;
+        $version = null;
+        wp_register_script(
+            INFORMATIONOUTPUT_PlUGIN_SLUG.'-Main', //$handle
+            INFORMATIONOUTPUT_PlUGIN_URL.'assets/site/js/InformationOutputMain.js', //$src
+            array(
+                'jquery'
+            ), //$deps
+            $version, //$ver
+            true //$$in_footer
+        );
+        /**
+         * Добавляет скрипт, только если он еще не был добавлен и другие скрипты от которых он зависит зарегистрированы.
+         * Зависимые скрипты добавляются автоматически.
+         */
+        wp_enqueue_script(INFORMATIONOUTPUT_PlUGIN_SLUG.'-Main');
     }
     public function loadHeadScriptSite(){}
     public function loadFooterScriptSite(){}
