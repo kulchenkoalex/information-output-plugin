@@ -64,5 +64,7 @@ class InformationOutputContactInformationShortcodesController extends Informatio
     public function render($data)
     {
         // TODO: Implement render() method.
+        $pathView = INFORMATIONOUTPUT_PlUGIN_DIR."/includes/views/site/shortcodes/InformationOutputContactInformationShortcodesView.php";
+        $this->loadView($pathView);
     }
 }
