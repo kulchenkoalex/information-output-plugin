@@ -17,6 +17,7 @@ use includes\controllers\admin\menu\InformationOutputMyOptionsMenuController;
 use includes\controllers\site\shortcodes\InformationOutputPostsShortcodeController;
 use includes\example\InformationOutputExampleAction;
 use includes\controllers\admin\menu\InformationOutputContactInformationSubMenuController;
+use includes\controllers\site\shortcodes\InformationOutputContactInformationShortcodesController;
 
 class InformationOutputLoader
 {
@@ -63,6 +64,7 @@ class InformationOutputLoader
      */
     public function site(){
         InformationOutputPostsShortcodeController::newInstance();
+        InformationOutputContactInformationShortcodesController::newInstance();
     }
     /**
      * Метод будет срабатывать везде. Загрузка классов для Админ панеле и Сайта
