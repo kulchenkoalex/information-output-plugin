@@ -18,8 +18,8 @@
       <file leaf-file-name="InformationOutputContactInformationShortcodesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="265">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -465,12 +465,12 @@
       <workItem from="1487023963027" duration="2604000" />
       <workItem from="1487233636308" duration="7911000" />
       <workItem from="1487445247100" duration="22706000" />
-      <workItem from="1487781475161" duration="6416000" />
+      <workItem from="1487781475161" duration="6686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59579000" />
+    <option name="totallyTimeSpent" value="59849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -790,7 +790,7 @@
         <state relative-caret-position="578">
           <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding>
-            <element signature="e#27#78#0#PHP" expanded="true" />
+            <element signature="e#27#78#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,8 +897,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="265">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
