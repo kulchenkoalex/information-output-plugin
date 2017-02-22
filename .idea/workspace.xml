@@ -15,17 +15,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InformationOutputContactInformationShortcodesController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InformationOutputContactInformationShortcodesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="185">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputContactInformationShortcodesView.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationOutputContactInformationShortcodesView.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/views/site/shortcodes/InformationOutputContactInformationShortcodesView.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -98,8 +98,8 @@
         <option value="$PROJECT_DIR$/includes/views/admin/menu/InformationOutputContactInformationSubMenuAddView.php" />
         <option value="$PROJECT_DIR$/includes/views/admin/menu/InformationOutputContactInformationSubMenuEditView.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
-        <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php" />
         <option value="$PROJECT_DIR$/includes/views/site/shortcodes/InformationOutputContactInformationShortcodesView.php" />
+        <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php" />
       </list>
     </option>
   </component>
@@ -465,12 +465,12 @@
       <workItem from="1487023963027" duration="2604000" />
       <workItem from="1487233636308" duration="7911000" />
       <workItem from="1487445247100" duration="22706000" />
-      <workItem from="1487781475161" duration="6185000" />
+      <workItem from="1487781475161" duration="6416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59348000" />
+    <option name="totallyTimeSpent" value="59579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -869,14 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/views/admin/menu/InformationOutputMainAdminMenuView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -900,6 +892,14 @@
           <folding>
             <marker date="1487795125409" expanded="true" signature="110:736" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

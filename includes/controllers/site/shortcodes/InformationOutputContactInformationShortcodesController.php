@@ -17,6 +17,8 @@ class InformationOutputContactInformationShortcodesController extends Informatio
     public static function newInstance()
     {
         // TODO: Implement newInstance() method.
+        $instance = new self;
+        return $instance;
     }
 
     /**
