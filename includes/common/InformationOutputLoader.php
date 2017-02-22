@@ -18,6 +18,7 @@ use includes\controllers\site\shortcodes\InformationOutputPostsShortcodeControll
 use includes\example\InformationOutputExampleAction;
 use includes\controllers\admin\menu\InformationOutputContactInformationSubMenuController;
 use includes\controllers\site\shortcodes\InformationOutputContactInformationShortcodesController;
+use includes\ajax\InformationOutputContactInformationAjaxHandler;
 
 class InformationOutputLoader
 {
@@ -73,6 +74,7 @@ class InformationOutputLoader
         InformationOutputLocalization::getInstance();
         InformationOutputLoaderScript::getInstance();
 		InformationOutputExampleAction::newInstance();
+        InformationOutputContactInformationAjaxHandler::newInstance();
     }
 
 }
