@@ -29,14 +29,14 @@ class InformationOutputContactInformationDashboardWidget implements InformationO
     // Используется в хуке
     public function addDashboardWidgets(){
         // Продвинутое использование: добавление виджета в боковой столбец
-        add_meta_box(
+        /*add_meta_box(
             'step_by_step_guest_book_dashboard_widget_new',
             __('Guest book new', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),
             array( &$this, 'renderDashboardWidget' ),
             'dashboard',
             'side',
             'high'
-        );
+        );*/
         wp_add_dashboard_widget(
             'information_output_contact_information_dashboard_widget',         // Идентификатор виджета.
             __('Contact information', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN),           // Заголовок виджета.
@@ -48,7 +48,7 @@ class InformationOutputContactInformationDashboardWidget implements InformationO
         // (который уже содержит наш виджет в самом конце)
         $normal_dashboard = $wp_meta_boxes['dashboard']['normal']['core'];
         // Сохраняем старую версию массива и удаляем наш виджет из конца массива
-        $example_widget_backup = array('step_by_step_guest_book_dashboard_widget' => $normal_dashboard['information_output_contact_information_dashboard_widget']);
+        $example_widget_backup = array('information_output_contact_information_dashboard_widget' => $normal_dashboard['information_output_contact_information_dashboard_widget']);
         unset($normal_dashboard['information_output_contact_information_dashboard_widget']);
         // Объединяем два массива вместе таким образом, что наш виджет оказывается в начале
         $sorted_dashboard = array_merge($example_widget_backup, $normal_dashboard);
