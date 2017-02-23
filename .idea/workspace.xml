@@ -27,24 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputContactInformationWidget.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InformationOutputContactInformationWidget.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="774">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="information-output-plugin.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/information-output-plugin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -167,8 +157,8 @@
         <option value="$PROJECT_DIR$/includes/ajax/InformationOutputContactInformationAjaxHandler.php" />
         <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputLoaderScript.php" />
-        <option value="$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php" />
         <option value="$PROJECT_DIR$/information-output-plugin.php" />
+        <option value="$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php" />
       </list>
     </option>
   </component>
@@ -417,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22166000" />
+    <option name="totallyTimeSpent" value="22769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -816,21 +806,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding>
-            <element signature="e#7#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/information-output-plugin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#89#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

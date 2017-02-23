@@ -29,4 +29,27 @@ class InformationOutputContactInformationWidget extends \WP_Widget
             array("description" => "Contact information")
         );
     }
+    /**
+     * Метод form() используется для отображения настроек виджета на странице виджетов.
+     * @param $instance
+     */
+    public function form($instance) {
+        $title = "";
+        $text = "";
+        // если instance не пустой, достанем значения
+        if (!empty($instance)) {
+            $title = $instance["title"];
+            $text = $instance["text"];
+        }
+        $tableId = $this->get_field_id("title");
+        $tableName = $this->get_field_name("title");
+        echo '<label for="' . $tableId . '">Title</label><br>';
+        echo '<input id="' . $tableId . '" type="text" name="' .
+            $tableName . '" value="' . $title . '"><br>';
+        $textId = $this->get_field_id("text");
+        $textName = $this->get_field_name("text");
+        echo '<label for="' . $textId . '">Text</label><br>';
+        echo '<textarea id="' . $textId . '" name="' . $textName .
+            '">' . $text . '</textarea>';
+    }
 }
