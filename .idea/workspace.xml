@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputContactInformationWidget.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationOutputContactInformationWidget.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -35,6 +35,16 @@
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InformationOutputContactInformationDashboardWidget.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationDashboardWidget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -425,7 +435,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24498000" />
+    <option name="totallyTimeSpent" value="24737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -461,14 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminSubMenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMyUsersMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -839,6 +841,14 @@
           <folding>
             <element signature="e#7#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationDashboardWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
