@@ -19,6 +19,7 @@ use includes\example\InformationOutputExampleAction;
 use includes\controllers\admin\menu\InformationOutputContactInformationSubMenuController;
 use includes\controllers\site\shortcodes\InformationOutputContactInformationShortcodesController;
 use includes\ajax\InformationOutputContactInformationAjaxHandler;
+use includes\widgets\InformationOutputContactInformationDashboardWidget;
 
 class InformationOutputLoader
 {
@@ -59,6 +60,7 @@ class InformationOutputLoader
         InformationOutputMyToolsMenuController::newInstance();
         InformationOutputMyOptionsMenuController::newInstance();
         InformationOutputContactInformationSubMenuController::newInstance();
+        InformationOutputContactInformationDashboardWidget::newInstance();
     }
     /**
      * Метод будет срабатывать когда вы находитесь Сайте. Загрузка классов для Сайта
