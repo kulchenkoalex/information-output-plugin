@@ -27,6 +27,8 @@ require_once plugin_dir_path(__FILE__) . '/config-path.php';
 require_once INFORMATIONOUTPUT_PlUGIN_DIR.'/includes/common/InformationOutputAutoload.php';
 require_once INFORMATIONOUTPUT_PlUGIN_DIR.'/includes/InformationOutputPlugin.php';
 
+//Регистрация виджета
+add_action('widgets_init', create_function('', 'return register_widget("includes\widgets\InformationOutputContactInformationWidget");'));
 
 register_activation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'activation' ) );
 register_deactivation_hook( __FILE__, array('includes\InformationOutputPlugin' ,  'deactivation' ) );

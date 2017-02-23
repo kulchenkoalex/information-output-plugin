@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputContactInformationWidget.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationOutputContactInformationWidget.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -35,6 +35,16 @@
               <folding>
                 <element signature="e#7#89#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="information-output-plugin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/information-output-plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,7 +145,6 @@
       <list>
         <option value="$PROJECT_DIR$/config-path.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminMenuController.php" />
-        <option value="$PROJECT_DIR$/information-output-plugin.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminSubMenuController.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMyDashboardMenuController.php" />
         <option value="$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMyPostsMenuController.php" />
@@ -159,6 +168,7 @@
         <option value="$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputContactInformationShortcodesController.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputLoaderScript.php" />
         <option value="$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php" />
+        <option value="$PROJECT_DIR$/information-output-plugin.php" />
       </list>
     </option>
   </component>
@@ -407,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22068000" />
+    <option name="totallyTimeSpent" value="22166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -614,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information-output-plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/controllers/admin/menu/InformationOutputMainAdminMenuController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -821,6 +823,14 @@
           <folding>
             <element signature="e#7#89#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information-output-plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
