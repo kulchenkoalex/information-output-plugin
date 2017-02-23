@@ -10,6 +10,7 @@ namespace includes\ajax;
 
 
 use includes\controllers\admin\menu\InformationOutputICreatorInstance;
+use includes\models\admin\menu\InformationOutputContactInformationSubMenuModel;
 
 class InformationOutputContactInformationAjaxHandler implements InformationOutputICreatorInstance
 {
@@ -25,7 +26,7 @@ class InformationOutputContactInformationAjaxHandler implements InformationOutpu
     public function __construct(){
         // Вызов конструктора класса InformationOutputShortcodesController
         // Чтобы прикрепить функцию к действию add_action( 'wp_loaded',  array( &$this, 'initShortcode') );
-        parent::__construct();
+        //parent::__construct();
 
         // подключаем AJAX обработчики, только когда в этом есть смысл
         if( defined('DOING_AJAX') && DOING_AJAX ){
@@ -38,7 +39,26 @@ class InformationOutputContactInformationAjaxHandler implements InformationOutpu
      * Обработчик для ajax действия guest_book (wp_ajax_contact_information, wp_ajax_nopriv_contact_information)
      */
     public function ajaxHandler(){
-
+        error_log('ajaxHandler');
+        // Проверка наличия данных
+        if ($_POST){
+            //Добавляем данные
+            $id = InformationOutputConatctInformationSubMenuModel::insert(array(
+                'user_name' => $_POST['user_name'],
+                'user_surname' => $_POST['user_surname'],
+                'phone_number' => $_POST['phone_number'],
+                'date_add' => time(), // time() стандартная php функция получения времени
+                'about_myself' => $_POST['about_myself']
+            ));
+            $return = array(
+                'message'   => 'Сохранено',
+                'ID'        => $id
+            );
+            // Возвращаем ответ
+            wp_send_json_success( $return );
+        }
+        wp_send_json_error();
+        wp_die();
     }
 
 }

@@ -14,4 +14,4 @@
     <label>'.__('About myself', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN ).'</label>
     <textarea name="inf_about_myself" class="inf-about-myself"></textarea>
     <button class="information_output-btn-add" >'.__('Add', INFORMATIONOUTPUT_PlUGIN_TEXTDOMAIN ).'</button>
-</form>';
+</form>

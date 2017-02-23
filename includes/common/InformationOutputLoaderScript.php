@@ -105,6 +105,8 @@ class InformationOutputLoaderScript
          * Зависимые скрипты добавляются автоматически.
          */
         wp_enqueue_script(INFORMATIONOUTPUT_PlUGIN_SLUG.'-Main');
+        $data = 'var ajaxurl = "'.INFORMATIONOUTPUT_PlUGIN_AJAX_URL.'";';
+        wp_add_inline_script( INFORMATIONOUTPUT_PlUGIN_SLUG.'-Main', $data, 'before' );
     }
     public function loadHeadScriptSite(){}
     public function loadFooterScriptSite(){}
