@@ -3,6 +3,7 @@ namespace includes;
 
 use includes\common\InformationOutputDefaultOption;
 use includes\common\InformationOutputLoader;
+use includes\custom_post_type\AutoPostType;
 use includes\models\admin\menu\InformationOutputContactInformationSubMenuModel;
 
 class InformationOutputPlugin
@@ -11,6 +12,9 @@ class InformationOutputPlugin
     private function __construct() {
         InformationOutputLoader::getInstance();
         add_action('plugins_loaded', array(&$this, 'setDefaultOptions'));
+
+        // Создаем Custom Post Type Book
+        new AutoPostType();
     }
     public static function getInstance() {
 

@@ -96,9 +96,11 @@
       <file leaf-file-name="InformationOutputPlugin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="221">
+              <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+              <folding>
+                <element signature="e#27#78#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -412,12 +414,12 @@
       <workItem from="1486622918969" duration="4221000" />
       <workItem from="1486643781406" duration="364000" />
       <workItem from="1486650773986" duration="807000" />
-      <workItem from="1488132149157" duration="1616000" />
+      <workItem from="1488132149157" duration="1792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28408000" />
+    <option name="totallyTimeSpent" value="28584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -838,9 +840,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding>
+            <element signature="e#27#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
