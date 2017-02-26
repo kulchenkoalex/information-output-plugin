@@ -43,7 +43,7 @@ class InformationOutputContactInformationAjaxHandler implements InformationOutpu
         // Проверка наличия данных
         if ($_POST){
             //Добавляем данные
-            $id = InformationOutputConatctInformationSubMenuModel::insert(array(
+            $id = InformationOutputContactInformationSubMenuModel::insert(array(
                 'user_name' => $_POST['user_name'],
                 'user_surname' => $_POST['user_surname'],
                 'phone_number' => $_POST['phone_number'],
