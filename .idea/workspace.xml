@@ -71,21 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputShortcodesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/controllers/site/shortcodes/InformationOutputShortcodesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoPostType.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AutoPostType.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/custom_post_type/AutoPostType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
+            <state relative-caret-position="379">
+              <caret line="66" column="103" lean-forward="false" selection-start-line="66" selection-start-column="103" selection-end-line="66" selection-end-column="103" />
               <folding>
                 <element signature="e#7#90#0#PHP" expanded="true" />
               </folding>
@@ -93,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InformationOutputPlugin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InformationOutputPlugin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -168,8 +158,8 @@
         <option value="$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationWidget.php" />
         <option value="$PROJECT_DIR$/includes/widgets/InformationOutputContactInformationDashboardWidget.php" />
         <option value="$PROJECT_DIR$/includes/common/InformationOutputLoader.php" />
-        <option value="$PROJECT_DIR$/includes/custom_post_type/AutoPostType.php" />
         <option value="$PROJECT_DIR$/includes/InformationOutputPlugin.php" />
+        <option value="$PROJECT_DIR$/includes/custom_post_type/AutoPostType.php" />
       </list>
     </option>
   </component>
@@ -414,12 +404,12 @@
       <workItem from="1486622918969" duration="4221000" />
       <workItem from="1486643781406" duration="364000" />
       <workItem from="1486650773986" duration="807000" />
-      <workItem from="1488132149157" duration="1792000" />
+      <workItem from="1488132149157" duration="2480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28584000" />
+    <option name="totallyTimeSpent" value="29272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -828,22 +818,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/custom_post_type/AutoPostType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
-          <folding>
-            <element signature="e#7#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/InformationOutputPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="73" lean-forward="true" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
           <folding>
             <element signature="e#27#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/custom_post_type/AutoPostType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="66" column="103" lean-forward="false" selection-start-line="66" selection-start-column="103" selection-end-line="66" selection-end-column="103" />
+          <folding>
+            <element signature="e#7#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

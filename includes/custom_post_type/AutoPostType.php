@@ -12,7 +12,12 @@ class AutoPostType
 {
     public function __construct()
     {
-        add_action('init', 'register_post_types');
+        /*
+        * Регистрируем Custom Post Type
+        */
+        add_action( 'init', array( &$this, 'registerAutoPostType' ) );
+        // Сообщения при публикации или изменении типа записи auto
+        add_filter('post_updated_messages',  array( &$this, 'autoUpdatedMessages' ));
     }
 
     function register_post_types()
@@ -45,5 +50,26 @@ class AutoPostType
             'menu_position'      => null,
             'supports'           => array('title','editor','author','thumbnail','excerpt','comments')
         ));
+    }
+
+    public function autoUpdatedMessages(){
+        global $post;
+        $messages['auto'] = array(
+            0 => '', // Не используется. Сообщения используются с индекса 1.
+            1 => sprintf( 'Auto обновлено. <a href="%s">Посмотреть запись auto</a>', esc_url( get_permalink($post->ID) ) ),
+            2 => 'Произвольное поле обновлено.',
+            3 => 'Произвольное поле удалено.',
+            4 => 'Запись Auto обновлена.',
+            /* %s: дата и время ревизии */
+            5 => isset($_GET['revision']) ? sprintf( 'Запись Book восстановлена из ревизии %s', wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
+            6 => sprintf( 'Запись Auto опубликована. <a href="%s">Перейти к записи auto</a>', esc_url( get_permalink($post->ID) ) ),
+            7 => 'Запись Auto сохранена.',
+            8 => sprintf( 'Запись Auto сохранена. <a target="_blank" href="%s">Предпросмотр записи auto</a>', esc_url( add_query_arg( 'preview', 'true', get_permalink($post->ID) ) ) ),
+            9 => sprintf( 'Запись Auto запланирована на: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Предпросмотр записи auto</a>',
+                // Как форматировать даты в PHP можно посмотреть тут: http://php.net/date
+                date_i18n( __( 'M j, Y @ G:i' ), strtotime( $post->post_date ) ), esc_url( get_permalink($post->ID) ) ),
+            10 => sprintf( 'Черновик записи Auto обновлен. <a target="_blank" href="%s">Предпросмотр записи auto</a>', esc_url( add_query_arg( 'preview', 'true', get_permalink($post->ID) ) ) ),
+        );
+        return $messages;
     }
 }
