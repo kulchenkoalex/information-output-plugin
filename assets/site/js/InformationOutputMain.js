@@ -5,7 +5,7 @@ jQuery(function($) {
     $(document).ready(function(){
         alert("I am developer");
     });
-    (document).find('.information_output-btn-add').click(function (e) {
+    $(document).find('.information_output-btn-add').click(function (e) {
         var userName, userSurName, phoneNumber, about_Myself, data;
         // Получаем данные формы
         userName = $(this).parent().find('.inf-user-name').val();
